@@ -1,0 +1,18 @@
+{
+    "chat.agent.enabled": false,
+    "inlineChat.askInChat": false,
+    "inlineChat.fixDiagnostics": false,
+    "chat.viewSessions.enabled": false,
+    "chat.extensionTools.enabled": false,
+    "chat.tools.autoExpandFailures": false,
+    "chat.tools.confirmationCarousel.enabled": false,
+    "chat.tools.riskAssessment.enabled": false,
+    "chat.mcp.apps.enabled": false,
+    "chat.detectParticipant.enabled": false,
+    "chat.implicitContext.suggestedContext": false,
+    "chat.includeApplyingInstructions": false,
+    "chat.useAgentSkills": false,
+    "chat.useAgentsMdFile": false,
+    "chat.useClaudeMdFile": false,
+    "editor.inlayHints.enabled": "off"
+}
