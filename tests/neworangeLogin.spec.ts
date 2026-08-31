@@ -16,9 +16,7 @@ for (const data of loginData) {
             await expect(page).toHaveURL(/dashboard/)
         }else {
 
-            await expect(
-                page.getByText("Invalid credentials")
-            ).toBeVisible()
+            await expect(page.getByText("Invalid credentials")).toBeVisible()
 
         }
 

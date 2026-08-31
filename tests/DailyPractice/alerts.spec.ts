@@ -59,7 +59,7 @@ test("Simple Dialog", async({page})=>{
 
   // test prompt box
 
-  test.only("Prompt message box" , async({page})=>{
+  test("Prompt message box" , async({page})=>{
     //Launch URL
     page.waitForLoadState()
    await page.goto("https://testautomationpractice.blogspot.com/")

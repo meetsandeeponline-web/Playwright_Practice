@@ -36,7 +36,7 @@ test('web table', async ({ page }) => {
 //Print the header
 
 
-test.only("Print row wise data", async ({ page }) => {
+test("Print row wise data", async ({ page }) => {
     //Browse the url
     await page.goto("https://the-internet.herokuapp.com/tables#edit");
     //get header value

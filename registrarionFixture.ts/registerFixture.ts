@@ -1,4 +1,4 @@
-/*import { test as baseTest } from "@playwright/test"
+import { test as baseTest } from "@playwright/test"
 //syntax to declare custom Fixture
 
 type userData={
@@ -23,11 +23,11 @@ export const test = baseTest.extend< userData>({
 
     }
 
-})*/
+})
 
 
 //syntax
-import { test as baseTest} from "@playwright/test"
+/*import { test as baseTest} from "@playwright/test"
 
 const test=baseTest.extend<{ registerUser: any }>({
 
@@ -39,4 +39,4 @@ const test=baseTest.extend<{ registerUser: any }>({
 
 
 
-})
+})*/

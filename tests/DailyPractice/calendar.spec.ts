@@ -13,7 +13,7 @@ test("select date", async ({ page }) => {
 })
 //Approch 2 
 
-test.only("Calendar traverse to given date", async ({ page }) => {
+test("Calendar traverse to given date", async ({ page }) => {
 
     const expectedyear="2027"
     const expectedMonth="January"
