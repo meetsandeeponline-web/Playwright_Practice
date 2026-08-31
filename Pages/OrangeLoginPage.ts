@@ -11,6 +11,7 @@ export class OrangeLoginPage {
     readonly userName: Locator
     readonly password: Locator
     readonly loginButton: Locator
+    readonly invalidCredentialsMessage:Locator
 
     //Find the locators
 
@@ -20,6 +21,8 @@ export class OrangeLoginPage {
         this.userName = page.getByRole('textbox', { name: 'Username' })
         this.password = page.getByRole('textbox', { name: 'Password' })
         this.loginButton = page.getByRole('button', { name: 'Login' })
+
+        this.invalidCredentialsMessage = page.getByText("Invalid credentials")
     }
 
     //Action method
